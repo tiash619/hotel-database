@@ -100,7 +100,7 @@ if (!empty($_POST['sql'])) {
     <div class="console">
         <h2>Run a SELECT query</h2>
         <form method="POST">
-            <textarea name="sql" placeholder="e.g. SELECT * FROM students LIMIT 5"><?= htmlspecialchars($querySQL) ?></textarea>
+            <textarea name="sql" placeholder="e.g. SELECT * FROM rooms LIMIT 5"><?= htmlspecialchars($querySQL) ?></textarea>
             <button type="submit" class="btn">Run</button>
         </form>
 
